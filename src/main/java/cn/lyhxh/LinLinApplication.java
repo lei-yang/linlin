@@ -3,6 +3,7 @@ package cn.lyhxh;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * 程序入口
@@ -10,6 +11,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  */
 @SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan
 @ServletComponentScan
+@EnableSwagger2
 public class LinLinApplication {
 
     public static void main(String[] args) throws Exception {
