@@ -13,8 +13,7 @@ public class LambdaTest {
         int y = 6;
 
         int c = add(x, y);
-
-//        int d = (x, y) -> x + y;
+        System.out.println(c);
     }
 
 
