@@ -76,5 +76,16 @@ public class LambdaTest {
         cardList.forEach((e) -> System.out.print(e + " "));
     }
 
+    @Test
+    public void testL() {
+        List<String> list = new ArrayList<>();
+        list.stream().forEach(finance -> {
+            System.out.println("sss");
+            System.out.println(finance == null);
+
+        });
+    }
+
+
 
 }
